@@ -6,6 +6,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 from dotenv import load_dotenv
 from services.gemini_service import ask_groq
 from services.voice_service import speech_to_text
+from groq import Groq
 
 import requests
 import os

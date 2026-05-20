@@ -1,4 +1,4 @@
-from openai import OpenAI
+
 import base64
 from fastapi import FastAPI, Request
 from fastapi.responses import Response
